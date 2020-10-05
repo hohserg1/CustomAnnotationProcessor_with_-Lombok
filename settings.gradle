@@ -1,0 +1,5 @@
+rootProject.name = 'CustomAnnotationProcessor_with_ Lombok'
+include 'app'
+include 'common'
+include 'apt'
+

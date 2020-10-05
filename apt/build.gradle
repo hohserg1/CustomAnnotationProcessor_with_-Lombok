@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'hohserg'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(':common')
+    compile 'com.google.guava:guava:21.0'
+}
